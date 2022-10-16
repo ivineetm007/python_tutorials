@@ -47,7 +47,7 @@ end = time.time()
 print('Time taken in seconds -', end - start)
 ```
 
-    Time taken in seconds - 3.155550003051758
+    Time taken in seconds - 3.866689443588257
     
 
 
@@ -75,7 +75,7 @@ end = time.time()
 print('Time taken in seconds -', end - start)
 ```
 
-    Time taken in seconds - 4.011302947998047
+    Time taken in seconds - 3.5445520877838135
     
 
 As we can see, both versions take almost same amount of time to finish. In the multi-threaded version the GIL prevented the CPU-bound threads from executing in parellel.\
@@ -100,8 +100,8 @@ print(sys.getswitchinterval())
 
 ## Multi-processing vs multi-threading 
 The most popular way is to use a multi-processing approach where you use multiple processes instead of threads. Each Python process gets its own Python interpreter and memory space so the GIL won’t be a problem.\
-The below would not run in the jupyter notebook. Run the multiprocessing_example.py and the other scripts for fair comparison.
-These are the results:-
+The below code would not run in the jupyter notebook. Run the multiprocessing_example.py and the other scripts for fair comparison.
+Below are the results:-
 1. Single threaded- 3.331
 2. Multi threaded- 4.614
 3. Mutliprocessing- 2.6724
