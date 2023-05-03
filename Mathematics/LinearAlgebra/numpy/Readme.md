@@ -1,0 +1,3 @@
+NumPy is the fundamental package for scientific computing in Python. It is a Python library that provides and an assortment of operations for fast operations on arrays - from mathematical, logical operations to basic linear algebra, random simulation and much more.
+
+- **Basics**- It covers the basic concepts required while working with numpy arrays which includes initialization, accessing, modifying, pivoting and math operations on numpy arrays.  Checkout (Readme)[basics.md] and the jupyter notebook (Basics.ipynb)[Basics.ipynb] 
