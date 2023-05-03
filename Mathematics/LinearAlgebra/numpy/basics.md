@@ -114,5 +114,7 @@ First, we need to understand ```numpy.dot``` function.
 
 ```numpy.tensordot(a, b, axes=2)```- Compute tensor dot product along specified axes. Given two tensors, a and b, and an array_like object containing two array_like objects, (a_axes, b_axes), sum the products of a’s and b’s elements (components) over the axes specified by a_axes and b_axes.
 
-
+## References
+- Numpy official docs- https://numpy.org/doc/stable/reference/
+- CS231 Spring 2023- https://deeplearning.cs.cmu.edu/S23/index.html
 
