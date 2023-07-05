@@ -1,5 +1,25 @@
+# Flask gitignore
+venv/
+
+*.pyc
+__pycache__/
+
+instance/
+
+.pytest_cache/
+.coverage
+htmlcov/
+
+dist/
+build/
+*.egg-info/
+
+# jupyter notebook
 .ipynb_checkpoints/
 Readme.txt
 
 # pycharm
 .idea/
+
+#sqllite
+.sqlite
